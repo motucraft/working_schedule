@@ -1,0 +1,11 @@
+# 参考 : https://twitter.com/remi_rousselet/status/1284307477878767616
+targets:
+  $default:
+    builders:
+      freezed:
+        generate_for:
+          include:
+            - lib/model/model/*.dart
+            - lib/model/model/*/*.dart
+            - lib/view_model/state/*.dart
+            - lib/view_model/state/*/*.dart
